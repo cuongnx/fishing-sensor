@@ -1,0 +1,16 @@
+build
+build.log
+tmp
+._*
+.DS_Store
+.project
+.settings/**/*
+bin/**/*
+gen/**/*
+*.class
+assets/*
+/gen
+/assets
+/bin
+bin/*.*
+/.settings
