@@ -1,5 +1,28 @@
 <resources>
 
+    <!-- English -->
+    <string name="app_name_en">BTDemo</string>
+    <string name="menu_settings_en">Settings</string>
+    <string name="title_activity_main_en">Bluetooth Demo</string>
+    <string name="title_activity_search_devices_en">Search for devices</string>
+    <string name="title_activity_connected_device_en">Connected Device</string>
+    <string name="title_activity_test_en">TestActivity</string>
+    <string name="button_search_en">Search devices</string>
+    <string name="button_enable_en">Enable Bluetooth</string>
+    <string name="button_disable_en">Disable Bluetooth</string>
+    <string name="button_start_search_en">Start searching</string>
+    <string name="button_stop_search_en">Cancel</string>
+    <string name="button_connect_en">Connect</string>
+    <string name="button_disconnect_en">Disconnect</string>
+    <string name="button_start_en">Start fishing</string>
+    <string name="button_stop_en">Stop fishing</string>
+    <string name="separator">============================</string>
+    <string name="hello_world_en">Hello World!</string>
+    <string name="list_notfound_en">No device available</string>
+    <string name="ok_en">OK</string>
+    <string name="dialog_searching_en">Searching&#8230;\nPress Cancel to stop searching</string>
+    <string name="dialog_finish_search_en">Searching finished</string>
+    <!-- Japanese -->
     <string name="app_name">BTDemo</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Bluetooth Demo</string>
@@ -13,9 +36,8 @@
     <string name="button_stop_search">Cancel</string>
     <string name="button_connect">Connect</string>
     <string name="button_disconnect">Disconnect</string>
-    <string name="button_start">Start measuring</string>
-    <string name="button_stop">Stop measuring</string>
-    <string name="separator">============================</string>
+    <string name="button_start">Start fishing</string>
+    <string name="button_stop">Stop fishing</string>
     <string name="hello_world">Hello World!</string>
     <string name="list_notfound">No device available</string>
     <string name="ok">OK</string>

@@ -8,9 +8,9 @@
         android:id="@+id/enableButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/searchButton"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
+        android:layout_marginTop="43dp"
         android:onClick="onEnableButtonClicked"
         android:text="@string/button_enable" />
 
@@ -18,9 +18,8 @@
         android:id="@+id/searchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="81dp"
+        android:layout_centerVertical="true"
         android:onClick="onSearchButtonClicked"
         android:text="@string/button_search" />
 

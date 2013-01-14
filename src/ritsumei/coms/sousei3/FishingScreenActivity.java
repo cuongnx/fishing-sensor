@@ -87,9 +87,7 @@ public class FishingScreenActivity extends Activity {
 						e.printStackTrace();
 					}
 				} else {
-					deviceQuery.setText(getResources().getString(
-							R.string.separator)
-							+ "\nConnecting...");
+					deviceQuery.setText("Connecting...");
 					(new ConnectThread(btDevice)).start();
 				}
 			}

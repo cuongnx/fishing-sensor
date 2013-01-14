@@ -17,16 +17,17 @@
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginRight="57dp"
         android:text="@string/button_start" />
 
     <TextView
         android:id="@+id/deviceQuery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/connectButton"
-        android:layout_marginTop="45dp"
-        android:text="@string/separator" />
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/connectButton" />
 
 </RelativeLayout>
