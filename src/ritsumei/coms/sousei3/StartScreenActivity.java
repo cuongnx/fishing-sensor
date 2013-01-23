@@ -98,15 +98,16 @@ public class StartScreenActivity extends Activity {
 	public void turnedOnDialog() {
 		CreateDialog dialogBuilder = new CreateDialog();
 		Object[] choice = { null, "OK", null };
-		dialogBuilder.showMessageDialog(this, "",
-				"Bluetooth is now turned on!", choice).show();
+		dialogBuilder
+				.showMessageDialog(this, "", R.string.bt_on_dialog, choice)
+				.show();
 	}
 
 	public void turnedOffDialog() {
 		CreateDialog dialogBuilder = new CreateDialog();
 		Object[] choice = { null, "OK", null };
-		dialogBuilder.showMessageDialog(this, "", "Bluetooth is off!", choice)
-				.show();
+		dialogBuilder.showMessageDialog(this, "", R.string.bt_off_dialog,
+				choice).show();
 	}
 
 	public void onSearchButtonClicked(View btn) {
